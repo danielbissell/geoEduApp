@@ -1,0 +1,51 @@
+body{
+
+}
+
+.chart{
+  margin:auto;
+width: 100%;
+}
+/******** Tooltip *********/
+
+#tooltip {
+  font: 10px sans-serif;
+  position: absolute;
+  display: none;
+  min-width: 80px;
+  height: auto;
+  background: none repeat scroll 0 0 rgba(31, 31, 31, 0.6);
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+  color: #fff;
+  box-shadow: 1px 1px 20px rgba(31, 31, 31, 0.6);
+}
+
+.counties:hover {
+    fill: red;
+}
+.counties {
+
+  stroke: #333;
+  stroke-width: 0.09;
+}
+
+text{
+
+}
+#title{
+  font: 20px sans-serif;
+  text-align: center;
+}
+#subTitle{
+  font: 15px sans-serif;
+  text-align: center;
+}
+.county-borders{
+
+}
+svg {
+  background: white;
+}
